@@ -1,0 +1,284 @@
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.bgc {
+    position: fixed;
+    z-index: -1;
+    background-image: url(https://images.unsplash.com/photo-1530632308350-e96d55f00e4a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b7fe6bfd709d20578b7f141f46163b7);
+    background-size: cover;
+    opacity: 0.7;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.picture {
+    display: inline-block;
+    /*   outline: 1px solid #000; */
+    width: 300px;
+    height: 200px;
+}
+
+.cup {
+    width: 200px;
+    height: 150px;
+    background-color: #b1aaa5;
+    border-radius: 0 0 30px 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.handle {
+    width: 100px;
+    height: 100px;
+    background-color: #b1aaa5;
+    border-radius: 0 30px 30px 0;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.handle2 {
+    width: 80px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.plate {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background-color: #b1aaa5;
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 0 0 100px 100px;
+}
+
+.plate2 {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    background-color: #b1aaa5;
+    margin-top: 155px;
+    margin-left: 30px;
+}
+
+.name {
+    position: absolute;
+    /*   outline:1px solid #000; */
+    width: 200px;
+    margin-top: 165px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.coffee1 {
+    position: absolute;
+    background-color: #6e4a30;
+    width: 180px;
+    height: 30px;
+    border-radius: 0 0 30px 30px;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.milk1 {
+    position: absolute;
+    background-color: #f2f0d5;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.water1 {
+    position: absolute;
+    background-color: #0390fc;
+    width: 180px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 85px;
+    color: white;
+}
+
+.milk2 {
+    position: absolute;
+    background-color: #fff;
+    width: 180px;
+    height: 45px;
+    margin-top: 55px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+}
+
+.milk3 {
+    position: absolute;
+    background-color: #f2f0d5;
+    width: 180px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.cream {
+    position: absolute;
+    background-color: #ed9d1c;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.milk4 {
+    position: absolute;
+    background-color: #fff;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.milk5 {
+    position: absolute;
+    background-color: #f2f0d5;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.chc {
+    position: absolute;
+    background-color: #733000;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.milk6 {
+    position: absolute;
+    background-color: #f2f0d5;
+    width: 180px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.cream1 {
+    position: absolute;
+    background-color: #ed9d1c;
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.mix {
+    position: absolute;
+    background-color: #fa7de7;
+    width: 180px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+
+.sug {
+    position: absolute;
+    background-color: #ff8b26;
+    width: 180px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.Whiskey {
+    position: absolute;
+    background-color: #be80c2;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.cream2 {
+    position: absolute;
+    background-color: #ed9d1c;
+    width: 180px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.chc1 {
+    position: absolute;
+    background-color: #733000;
+    width: 180px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}

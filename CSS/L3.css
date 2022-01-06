@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.poster {
+    position: absolute;
+    outline: 1px solid #000;
+    width: 450px;
+    height: 695px;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    opacity: 0;
+}
+
+.red1 {
+    position: absolute;
+    width: 423px;
+    height: 85px;
+    background-color: #FF8D53;
+    transform-origin: left top;
+    transform: rotate(45deg);
+    margin-top: 145px;
+    /*   opacity: 0.4; */
+}
+
+.red2 {
+    position: absolute;
+    transform-origin: left top;
+    width: 610px;
+    height: 85px;
+    background-color: #FF5600;
+    transform: rotate(45deg);
+    margin-top: 263px;
+    /*   opacity: 0.4; */
+}
+
+.black {
+    position: absolute;
+    width: 795px;
+    height: 125px;
+    background-color: #FFB590;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+    margin-top: 555px;
+    /*   opacity: 0.4; */
+}
+
+.text1 {
+    position: absolute;
+    right: 0;
+    font-family: 'Festive', cursive;
+    transform-origin: righ top;
+    transform: rotate(-90deg);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 35PX;
+}
+
+.text2 {
+    position: absolute;
+    font-family: 'Ephesis', 'Festive', cursive;
+    color: #612A0F;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 80px;
+}
+
+.text3 {
+    position: absolute;
+    font-family: 'Festive', cursive;
+    color: #612A0F;
+    font-weight: 700;
+    font-size: 72px;
+    margin-left: 450px;
+}
+
+.text4 {
+    position: absolute;
+    font-family: 'Ephesis', 'Festive', cursive;
+    color: #612A0F;
+    font-weight: 700;
+    font-size: 72px;
+    margin-left: 260px;
+    margin-top: 35px;
+}
+
+.bar {
+    position: absolute;
+    font-size: 0;
+    width: 80px;
+    height: 53px;
+    transform-origin: left top;
+    transform: rotate(-45deg);
+    margin-top: 505px;
+    margin-left: 245px;
+}
+
+.lineArea {
+    position: relative;
+    /*   outline: 1px solid blue; */
+    width: 10%;
+    height: 400%;
+    display: inline-block;
+}
+
+.num {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Festive', cursive;
+}
+
+.line0 {
+    position: absolute;
+    background-color: red;
+    height: calc(100% - 16px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line1 {
+    position: absolute;
+    background-color: red;
+    height: calc(50% - 12px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line2 {
+    position: absolute;
+    background-color: red;
+    height: calc(70% - 8px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line3 {
+    position: absolute;
+    background-color: red;
+    height: calc(70% - 60px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line4 {
+    position: absolute;
+    background-color: red;
+    height: calc(90% - 16px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line5 {
+    position: absolute;
+    background-color: red;
+    height: calc(40% - 60px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line6 {
+    position: absolute;
+    background-color: red;
+    height: calc(30% - 40px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line7 {
+    position: absolute;
+    background-color: red;
+    height: calc(90% - 90px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line8 {
+    position: absolute;
+    background-color: red;
+    height: calc(70% - 50px);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.line9 {
+    position: absolute;
+    background-color: red;
+    height: calc(60%);
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.text5 {
+    position: absolute;
+    font-size: 60px;
+    color: #FF8637;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+    margin-top: 250px;
+    margin-left: 190px;
+    font-family: 'Akronim', 'Ephesis', 'Festive', cursive;
+}
+
+.text6 {
+    position: absolute;
+    font-size: 30px;
+    color: #FF8637;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+    margin-top: 200px;
+    margin-left: 270px;
+    font-family: 'Akronim', 'Ephesis', 'Festive', cursive;
+}
+
+.text7 {
+    position: absolute;
+    font-size: 30px;
+    color: #FF8637;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+    margin-top: 360px;
+    margin-left: 380px;
+    font-family: 'Pacifico', 'Akronim', 'Ephesis', 'Festive', cursive;
+    text-align: left;
+}
+
+.text8 {
+    position: absolute;
+    font-family: 'Rampart One', 'Pacifico', 'Ephesis', 'Festive', cursive;
+    color: #F2863F;
+    transform-origin: left top;
+    transform: rotate(45deg);
+    font-size: 55px;
+    margin-left: 35px;
+    margin-top: 85px;
+}

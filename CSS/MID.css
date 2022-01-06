@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
+body {
+    background-image: url(https://images.pexels.com/photos/7303172/pexels-photo-7303172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.picture2 {
+    background-image: url(https://images.pexels.com/photos/405238/pexels-photo-405238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100vh;
+    margin-top: 15px;
+}
+
+.head {
+    background-size: cover;
+    background-position: center center;
+    /*   background-attachment: fixed; */
+    height: 100vh;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Pacifico';
+    color: black;
+    letter-spacing: 2px;
+}
+
+.a {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: 'Montagu Slab';
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-top: 3%;
+    display: flex;
+    /*   flex-direction:column; */
+    font-size: 20px;
+    gap: 2.5%;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    /*   color:transparent; */
+    /*   -webkit-text-stroke: 1px white; */
+}
+
+.product {
+    display: flex;
+    border: 2px solid black;
+    width: 80%px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.product-picture {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.product-name {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.name-name {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.product-item {
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+.row {
+    flex-direction: row-reverse;
+}
+
+.right {
+    text-align: right;
+}
+
+.top5-item-link {
+    color: white;
+}
+
+.top5-item-link:hover {
+    color: black;
+}
+
+.footer {
+    /*   background-color: gray; */
+    height: 60px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer-article {
+    font-size: 40px;
+    letter-spacing: 6;
+    font-weight: bold;
+    color: white;
+}

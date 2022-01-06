@@ -1,0 +1,55 @@
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.title1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title2 {
+    display: flex;
+    color: red;
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    background-color: #baedb9;
+    padding: 4px;
+}
+
+li {
+    background-color: #ddf7dc;
+    margin-bottom: 4px;
+}
+
+li:nth-child(odd) {
+    background-color: #fff;
+}
+
+.fa-check-square-o {
+    font-size: 35px;
+    color: red;
+}

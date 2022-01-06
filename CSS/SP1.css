@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/pexels-gustavo-fring-7155673\ \(1\)-min.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    color: rgb(240, 166, 166);
+}
+
+@media screen and (max-width: 400px) {
+    .area {
+        height: 200px;
+    }
+    .area1 {
+        font-size: 72px;
+    }
+}

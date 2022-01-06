@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body {
+    background-color: #323335;
+}
+
+.bback {
+    position: absolute;
+    right: 15px;
+    position: fixed;
+}
+
+.sset {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(119, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sset:hover {
+    color: black;
+    background-color: rgb(233, 168, 72);
+}
+
+.btn {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(176, 204, 202);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+    font-family: 'AnTon', 'cursive';
+    font-size: 30px;
+    color: white;
+    transition: all 0.5s;
+    /* transform: translate(-75px, -25px);
+    margin-left: 80px;
+    margin-top: 30px; */
+}
+
+.btn:hover {
+    color: violet;
+    /* font-size: 40px;
+    width: 180px;
+    height: 60px; */
+    transform: scale(1.05);
+    background-color: #656664;
+    border: 5px solid white;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+}
+
+.box {
+    position: relative;
+    width: 550px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box img {
+    height: 100%;
+    opacity: 0.5;
+    transform: translate(-200px, 0);
+    transition: all 0.5s;
+}
+
+.box .title1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: -200px;
+    right: 10px;
+    transition: all 1s;
+    /* transition-delay: 0.7s; */
+    transition-timing-function: ease-in-out;
+}
+
+.box .title2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    bottom: -200px;
+    right: 10px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover .title1 {
+    bottom: 20px;
+}
+
+.box:hover .title2 {
+    bottom: 80px;
+}
+
+.box:hover img {
+    opacity: 1;
+    transform: translate(0, 0);
+}
